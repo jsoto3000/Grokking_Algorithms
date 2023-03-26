@@ -21,8 +21,8 @@
 ## Some Additional Notes
 
 - Logs are the flip of exponentials.
-  - 10<sup>2</sup> = 100 <-> log<sub>10</sub>100 = 2.
-  - How many 10s do we multiply together to get 100.
+  - 10<sup>2</sup> = 100 <-> log<sub>10</sub>100 = 2
+  - How many 10s do we multiply together to get 100
 - O(log n) is faster then O(n), but it gets a lot faster as the list of items you're searching grows.
 - The Traveling Salesman is one of the unsolved problems in computer science. There's no fast known algorithm for it. Best solution is an approximate solution.
 

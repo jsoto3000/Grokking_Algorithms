@@ -1,4 +1,4 @@
-# Grokking Algorithms
+# Grokking Algorithms - Chapter 1
 ## Big O Notation
 
 - Big O notation is special notation that tells you how fast an algorithm is.

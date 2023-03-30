@@ -8,9 +8,10 @@
 
 <a name="about"></a>
 ## About
-Grokking Algorithms
-by
-Aditya Y. Bhargava
+Grokking Algorithms  
+by  
+Aditya Y. Bhargava  
+  
 Python Version 3 Code
 
 <a name="features"></a>

@@ -11,11 +11,11 @@
     - push (insert)
     - pop (remove and read)  
 
-- Call Stack Example
+- Call Stack
   - When you call a function from another function:
     - The calling function is paused in a partially completed state
 
-- Walk-thru what happens when call a function
+- Call Stack Walk-thru what happens when call a function
   - (see call_stack.py)
   - NOTE: print is a function in Python
     - For this example pretend it is not

@@ -32,7 +32,7 @@
             margin-right: auto;
             width: 50%">
 
-----------|Arrays|Lists|
+----------|Arrays|Lists
 ---|---|---
 Reading|O(1)|O(n)
 Insertion|O(n)|O(1)

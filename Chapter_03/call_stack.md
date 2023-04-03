@@ -19,7 +19,7 @@
   - (see call_stack.py)
   - NOTE: print is a function in Python
     - For this example pretend it is not
-####
+
 <div style="margin-left: auto;
             margin-right: auto;
             width: 50%">

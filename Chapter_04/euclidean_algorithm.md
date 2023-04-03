@@ -1,5 +1,6 @@
 # Grokking Algorithms - Chapter 4
 ## Euclidean Algorithm
+Source: Khan Academy
 
 - The Euclidean Algorithm 
   - The Greatest Common Divisor (GCD) of two integers A and B is the largest integer that divides both A and B.  

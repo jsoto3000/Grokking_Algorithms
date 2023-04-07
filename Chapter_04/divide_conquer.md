@@ -24,3 +24,10 @@
       - Figure out how to reduce your problem and get to the base case.
       - Use a recursive Euclidean Algorithm to find the GCD.
         - In this case the answer is 80.
+    - Binary Search is a D&C algorithm too.
+      - Base case for Binary Search ia an array with one item
+        - if the item you're looking for in the array, you found it!
+        - Otherwise, it is not in the array.
+      - In Recursive case split the array in half
+        - throw away one half
+        - search on other half

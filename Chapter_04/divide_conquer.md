@@ -4,7 +4,7 @@
 - D&C
   - Have problem that cannot be solved with learned algorithms
   - Then use D&C, well known recursive technique for problem-solving
-  - D&C is not a simple algorith to apply to a problem
+  - D&C is not a simple algorithm to apply to a problem
     - Instead it is a way to think about a problem 
   - Farmer with a plot of land
     - 1680 meters by 640 meters rectangular plot

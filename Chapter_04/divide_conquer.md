@@ -45,17 +45,17 @@
     - The average runtime of quicksort is O(n log n)
       - but in worst case it takes O(n<sup>2</sup>)
     - The constant in Big O notation can matter sometimes
-      - That's why quicksort is faster than merge sort
+      - That's why quicksort is faster than Merge Sort
       - However, the const almost never matters for simple search vs binary search
         - O(log n) is os much faster than O(n) as list gets bigger
-    - Inductive Proof
-      - a way to prove that your algorithm works
-      - has two steps:
-        - base case
-        - inductive case
-      - method for proving that a statement P(n) is true for every natural number n,
-        - that is, that the infinitely many cases P ( 0 ) , P ( 1 ) , P ( 2 ) , P ( 3 ) , … all hold. 
-        - Informal metaphors help to explain this technique: such as falling dominoes or climbing a ladder:
-          - Mathematical induction proves that we can climb as high as we like on a ladder:
-            - by proving that we can climb onto the bottom rung (the basis or base case), and 
-            - that from each rung we can climb up to the next one (the step or inductive case).
+  - Inductive Proof
+    - a way to prove that your algorithm works
+    - has two steps:
+      - base case
+      - inductive case
+    - method for proving that a statement P(n) is true for every natural number n,
+      - that is, that the infinitely many cases P ( 0 ) , P ( 1 ) , P ( 2 ) , P ( 3 ) , … all hold. 
+      - Informal metaphors help to explain this technique: such as falling dominoes or climbing a ladder:
+        - Mathematical induction proves that we can climb as high as we like on a ladder:
+          - by proving that we can climb onto the bottom rung (the basis or base case), and 
+          - that from each rung we can climb up to the next one (the step or inductive case).

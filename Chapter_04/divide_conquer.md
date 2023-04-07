@@ -31,3 +31,22 @@
       - In Recursive case split the array in half
         - throw away one half
         - search on other half
+    - Quicksort
+      - A sorting algorithm
+      - Much faster than selection sort
+      - Frequently used
+      - Uses D&C
+      - Use Quicksort to sort an array
+        - Base Case
+          - Empty arrays and arrays with only one element
+    - Inductive Proof
+      - a way to prove that your algorithm works
+      - has two steps:
+        - base case
+        - inductive case
+      - method for proving that a statement P(n) is true for every natural number n,
+        - that is, that the infinitely many cases P ( 0 ) , P ( 1 ) , P ( 2 ) , P ( 3 ) , … all hold. 
+        - Informal metaphors help to explain this technique: such as falling dominoes or climbing a ladder:
+          - Mathematical induction proves that we can climb as high as we like on a ladder:
+            - by proving that we can climb onto the bottom rung (the basis or base case), and 
+            - that from each rung we can climb up to the next one (the step or inductive case).

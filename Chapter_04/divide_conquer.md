@@ -16,7 +16,7 @@
         - (1) Figure out the base case (simplest possible case)
         - (2) Divide or decrease your problem until it becomes the base case
         - Base Case (the easiest case)
-          - Base case is if one side is a multiple of the other
+          - If one side is a multiple of the other
             - Have a plot of land where one side is 50 meters and the other side is 25 meters
             - Largest plot of land you can have is 25 meters by 25 meters
         - Recursive Case

@@ -10,21 +10,30 @@
 - Big O notation is about the worst case scenario.
 - Run time of algorithms is expressed in Big O notation.
 
-## Some Common Big O Run Times
+- Some Common Big O Run Times
 
-- O(log n) : also known as log time. Example: Binary Search.
-- O(n) : also known as linear time. Example: Simple Search.
-- O(n * log n) : also known as a fast sorting algorithm. Example: Quick-Sort.
-- O(n<sup>2</sup>) : also known as a slow sorting algorithm. Example: Selection-Sort.
-- O(n!) : also known as a really slow algorithm. Example: The Traveling Salesman.
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 50%">
 
-## Some Additional Notes
+Big O Notation|Run Time|Example
+----|----|----
+O(log n)|log time|Binary Search
+O(n)|linear time|Simple Search
+O(n * log n)|fast sorting algorithm|Quick-Sort
+O(n<sup>2</sup>)|slow sorting algorithm|Selection-Sort
+O(n!)|a really slow algorithm|The Traveling Salesman.
 
-- Logs are the flip of exponentials.
-  - 10<sup>2</sup> = 100 <-> log<sub>10</sub>100 = 2.
-  - How many 10s do we multiply together to get 100.
-- O(log n) is faster then O(n), but it gets a lot faster as the list of items you're searching grows.
-- The Traveling Salesman is one of the unsolved problems in computer science. There's no fast known algorithm for it. Best solution is an approximate solution.
+
+</div>
+
+- Some Additional Notes
+
+  - Logs are the flip of exponentials.
+    - 10<sup>2</sup> = 100 <-> log<sub>10</sub>100 = 2.
+    - How many 10s do we multiply together to get 100.
+  - O(log n) is faster then O(n), but it gets a lot faster as the list of items you're searching grows.
+  - The Traveling Salesman is one of the unsolved problems in computer science. There's no fast known algorithm for it. Best solution is an approximate solution.
 
 
 

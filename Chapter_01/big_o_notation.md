@@ -8,9 +8,10 @@
 - Algorithm speeds are not measured in seconds, but in growth of the number of operations.
 - Big O notation speaks to how quickly the run time of an algorithm increases as the size of the input increases.
 - Big O notation is about the worst case scenario.
-- Run time of algorithms is expressed in Big O notation.
+- Run time of algorithms is expressed in Big O notation.  
 
-- Some Common Big O Run Times
+
+## Some Common Big O Run Times
 
 <div style="margin-left: auto;
             margin-right: auto;
@@ -27,7 +28,7 @@ O(n!)|a really slow algorithm|The Traveling Salesman.
 
 </div>
 
-- Some Additional Notes
+## Some Additional Notes
 
   - Logs are the flip of exponentials.
     - 10<sup>2</sup> = 100 <-> log<sub>10</sub>100 = 2.

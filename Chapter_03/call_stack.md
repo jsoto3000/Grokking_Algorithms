@@ -15,7 +15,7 @@
   - When you call a function from another function:
     - The calling function is paused in a partially completed state
 
-- Call Stack Walk-thru what happens when call a function
+## Call Stack Walk-thru what happens when call a function
   - (see call_stack.py)
   - NOTE: print is a function in Python
     - For this example pretend it is not
@@ -105,10 +105,9 @@ NAME| MAGGIE |
 
 </div>
 
-- Call Stack example with Recursion
+## Call Stack example with Recursion
   - (see call_stack_recursion.py)
 
-####
 <div style="margin-left: auto;
             margin-right: auto;
             width: 50%">
@@ -264,7 +263,7 @@ x| 3   |
 
 </div>
 
-- Revisit recursive approach to key_search_box pseudocode  
+## Revisit recursive approach to key_search_box pseudocode  
   - while loop approach generates a pile of boxes to search
   - in recursive approach there is no pile
     - pile of boxes is saved on the call stack

@@ -1,7 +1,6 @@
 # Grokking Algorithms - Chapter 3
-## Recursion
 
-- Recursion
+## Recursion
   - Coding technique used in many algorithms.
   - Elegant way to solve problems.
   - Learn how to break problem down into a base case and recursive case.
@@ -14,11 +13,11 @@
       - "Recursion may achieve a performance gain for your programmer."  
 
 
-- Pseudocode
+## Pseudocode
   - High level description of problem
   - Written like code, but closer to human speech
 
-- Recursive Functions
+## Recursive Functions
   - Many important algorithms use recursion.
   - It's easy to write a recursion function incorrectly that ends up in an infinite loop.
     - Recursion function calls itself.

@@ -48,6 +48,19 @@
       - That's why quicksort is faster than Merge Sort
       - However, the const almost never matters for simple search vs binary search
         - O(log n) is os much faster than O(n) as list gets bigger
+  - Big O Notation
+    - How long would each of these operations take in Big O notation?
+      - Printing the value of each element in an array
+        - O(n)
+      - Doubling the value of each element in an array
+        - O(n)
+      - Doubling the value of just the first element in an array
+        - O(1)
+      - Creating a multiplication table with all the elements in the array
+        - if array is [2, 3, 7, 8, 10]
+        - first multiply every element by 2
+        - then multiply every element by 3, then by 7, and so on
+        - O(n<sup>2</sup>)
   - Inductive Proof
     - a way to prove that your algorithm works
     - has two steps:

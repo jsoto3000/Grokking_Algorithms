@@ -25,7 +25,6 @@ O(n * log n)|fast sorting algorithm|Quick-Sort
 O(n<sup>2</sup>)|slow sorting algorithm|Selection-Sort
 O(n!)|a really slow algorithm|The Traveling Salesman.
 
-
 </div>
 
 ## Some Additional Notes

@@ -19,6 +19,11 @@
     - collisions
     - hash functions 
   - Arrays and lists map straight to memory but Hash Tables are smarter  
+  - Hash Tables are also extremely fast
+    - Average case takes O(1)
+    - O(1) is called constant time
+      - does not mean instant
+      - means time remains same regardless of size of Hash Table
   - Will likely never need to implement hash tables yourself
     - Any good programming language will have an implementation
     - Python has Hash Tables
@@ -108,4 +113,78 @@ item prices| 1.49 | 0.79  | 2.49 | 0.67 | 1.49
 ## Collisions and Performance
 
 - to understand the performance of hash tables you first need to understand what collisions are
-- 
+- collision occurs when two keys are assigned the same slot  
+- Many different ways to deal with collisions
+  - Simple Solution:
+    - When multiple keys map to same slot, start a linked list at that slot  
+    - con: can degrade performance; end up with same result as putting everything in a linked list to begin with  
+- Hash function is extremely important
+  - maps all keys to a single slot
+  - ideally will map keys evenly all over the hash
+  - if linked lists get long, it will slow down your hash table
+    - but will not get too long if have a good hash function
+    - a good hash function will avoid and/or minimize collisions
+- Performance
+  - O(1) >>> constant time
+  - O(n) >>> linear time
+
+
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 75%">
+
+--| Hash Tables (Avg.) | Hash Tables (Worst.) | Arrays | Linked Lists
+----|--------------------|----------------------|--------|----
+SEARCH| O(1)               | O(n)                 | O(1)   | O(n)
+INSERT| O(1)               | O(n)                 | O(n)   | O(1)
+DELETE| O(1)               | O(n)                 | O(n)   | O(1)
+
+</div>
+
+- To avoid collisions need:
+  - a low load factor
+  - good hash function
+- Load Factor
+  - number of items in a hash table/total number of slots
+  - hash tables use an array for storage, so count number of occupied slots
+  - having a load factor greater than 1 means you have more items than slots in your array  
+  - resizing:
+    - once the load factor starts to grow, need to add more slots to the hash table  
+  - with a lower load factor have fewer collisions
+    - table will perform better
+    - good rule of thumb: resize when ;oad factor greater than 0.7
+    - resizing is expensive!
+      - however, on average hash tables take O(1) time even with resizing
+- Good Hash Function
+  - a good hash function distributes values in the array evenly
+  - a bad hash function groups values together and produces a lot of collisions  
+  - it is important for hash functions to have a good distribution
+    - they should map items as broadly as possible
+    - worst case for a hash table is when the hash function maps all items to the same slot
+- Have Four Hash Functions that work with strings:
+  - (A) Return "1" for all input
+  - (B) Use the length of string as the index
+  - (C) Use the first character of the string as the index: so, all strings starting with a are hashed together, and so on.
+  - (D) Map every letter to a prime number: a = 2, b =3, c = 5, d = 7, e =11 , and so on. For a string, the hash function is the sum of all the characters modulo the size of the hash. i.e., if the string is "bag", the index is 3 + 2 + 17 % 10 = 22 % 10 = 2  
+  - For each example below, which of the four hash function(s) listed above will provide a good distribution (assume a hash table size of 10 slots)  
+    - phonebook where keys are names and values are phone numbers. Names are as follows: Esther, Ben, Bob, and Dan
+      - C & D
+    - mapping from battery size to power. Sizes are A, AA, AAA, AAAA
+      - B & D
+    - mapping from book titles to authors. Titles are Maus, Fun Home, and Watchmen
+      - B, C, and D
+- Recap
+  - Will most likely never have to implement a hash table yourself
+    - programming language you use should provide it
+    - Python's hash tables get the average case performance: constant time >>> O(1)
+    - hash tables are a powerful data structure
+      - extremely fast
+      - let you model data in a different way
+    - can make a hash table combining a hash function with an array
+    - collisions are bad
+      - need a hash function that minimizes collisions
+    - hash tables have really fast search, insert, and delete capabilities  
+    - hash tables are good for modeling relationships from one item to another
+    - once your hash table's load factor is greater than 0.7, it is time to resize it
+    - hash tables are good for caching data (i.e., web server)  
+    - hash tables are great for catching duplicates

@@ -7,11 +7,11 @@ def get_data_from_server(url):
 
 def get_page(url):
     if cache.get(url):
-        #returns cached data
+        # returns cached data
         return cache[url]
     else:
         data = get_data_from_server(url)
-        #saves this data in cache first
+        # saves this data in cache first
         cache[url] = data
         return data
 

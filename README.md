@@ -26,5 +26,5 @@ Python Version 3 Code
 <a name="technical_information"></a>
 ## Technical Information
 
-Coded in Linux (UBUNTU) environment.
+Coded in Linux (UBUNTU) environment.  
 PyCharm.

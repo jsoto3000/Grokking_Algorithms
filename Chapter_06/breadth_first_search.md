@@ -21,7 +21,7 @@
   - those nodes are called neighbors
 - graphs are a way to model how different things are connected to each other
 - can use hash tables to express relationships in a graph
-  - hash table allows you to map a key to a value
+  - a hash table allows you to map a key to a value
     - the order in which you add the key/value pairs does not matter
 - directed graph
   - relationship is only one way between nodes

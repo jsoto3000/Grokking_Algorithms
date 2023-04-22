@@ -24,7 +24,7 @@ graph["thom"] = []
 graph["jonny"] = []
 
 # function to find a seller
-# algorithm will run until a seller is found or queue becomes empty (no seller)
+# algorithm will run until a seller is found or the queue becomes empty (no seller)
 # will follow each edge (connection)
 # run time for search of entire network is at least O(number of edges)
 # uses queue to track searched items where adding one item takes constant time: O(1)

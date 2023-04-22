@@ -7,6 +7,7 @@
   - Important concept in general programming
   - Important to understand when using recursion.
   - It is a simple data structure.
+  - It is a LIFO (last in, first out) data structure.
   - Has only two actions:
     - push (insert)
     - pop (remove and read)  

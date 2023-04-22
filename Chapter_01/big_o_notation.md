@@ -3,8 +3,8 @@
 
 - Big O notation is special notation that tells you how fast an algorithm is.
 - Algorithm running times grow at different rates.
-- As an example run times for binary versus simple search do not grow at the same rate.
-- As number of items increases binary search takes a little more time to run; but simple search takes a lot more time to run.
+- As an example, run times, for binary versus simple search, do not grow at the same rate.
+- As number of items increases, binary search takes a little more time to run; but simple search takes a lot more time to run.
 - Algorithm speeds are not measured in seconds, but in growth of the number of operations.
 - Big O notation speaks to how quickly the run time of an algorithm increases as the size of the input increases.
 - Big O notation is about the worst case scenario.

@@ -93,5 +93,5 @@
     - special type of graph where no edges ever point back
     - i.e., family tree
       - nodes (people in family tree depicting parent-child relationships)
-      - edges (all edges point downward form parent to children)
+      - edges (all edges point downward from parent to children)
         - father cannot be grandfather's dad!

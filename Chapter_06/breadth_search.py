@@ -16,7 +16,6 @@ graph["claire"] = ["thom", "jonny"]
 
 # anuj, peggy, thom, and jonny do not have any neighbors
 # they have graphs mapped to them, but they have no mappings
-
 # directed graph - relationship is only one way
 # anuj is mapped to bob, but bob is not mapped anuj
 graph["anuj"] = []
